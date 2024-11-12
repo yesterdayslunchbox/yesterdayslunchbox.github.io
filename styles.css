@@ -28,8 +28,7 @@ h1 {
     font-size: 100px;
     font-weight: lighter;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    
 }
 
 .announcement {
@@ -63,4 +62,12 @@ li a {
     text-decoration: none;
     font-size: 40px;
     font-family: SerialPublication;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        transform: scale(0.7); /* Scale down to 70% of the original size */
+        transform-origin: top left; /* Adjust the origin to prevent shifting */
+        overflow: hidden; /* Prevent overflow issues */
+    }
 }
