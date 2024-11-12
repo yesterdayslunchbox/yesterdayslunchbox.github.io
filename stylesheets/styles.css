@@ -1,0 +1,102 @@
+/* 
+    FONTS 
+        - RetroGraffiti
+        - SerialPublication
+        - StreetGraffiti
+*/
+
+@font-face {
+    font-family: "RetroGraffiti";
+    src: url("/fonts/retro-graffiti.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SerialPublication";
+    src: url("/fonts/serial-publication.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "StreetGraffiti";
+    src: url("/fonts/street-graffiti.otf") format("opentype");
+}
+
+h1 {
+    margin: 0;
+    margin-top: 60px;
+    font-family: 'StreetGraffiti';
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.announcement {
+    font-family: 'SerialPublication';
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    color: red;
+}
+
+.navbar {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: SerialPublication;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+  /* visited link */
+a:visited {
+    color: black;
+}
+
+  /* mouse over link */
+a:hover {
+    color: darkslategray;
+}
+
+  /* selected link */
+a:active {
+    color: darkslategray;
+}
+
+/* MOBILE ADAPTATIONS */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        margin-top: 40px;
+        font-size: 70px;
+    }
+
+    li a {
+        padding: 20px 10px;
+        font-size: 35px;
+    }
+
+    .announcement {
+        font-size: 60px;
+    }
+}
