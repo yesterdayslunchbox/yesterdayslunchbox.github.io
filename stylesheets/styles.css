@@ -100,3 +100,15 @@ a:active {
         font-size: 60px;
     }
 }
+
+.post-window {
+    width: 500px;
+    height: 400px;
+}
+
+.post-wrapper {
+    display: block;
+    justify-items: center;
+    padding-left: auto;
+    padding-right: auto;
+}
