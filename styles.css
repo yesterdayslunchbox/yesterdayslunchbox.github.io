@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "RetroGraffiti";
+    src: url("https://yesterdayslunchbox.github.org/Fonts/retro-graffiti.otf") format("opentype");
+}
+
+h1 {
+    font-family: RetroGraffiti;
+}
