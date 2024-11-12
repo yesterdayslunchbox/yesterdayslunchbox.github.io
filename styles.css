@@ -72,7 +72,8 @@ li a {
     font-family: SerialPublication;
 }
 @media (max-width: 768px) {
-    .mobile-break {
-        display: block;
+    .mobile-break::after {
+        content: "";
+        display: block; /* This acts like a <br> */
     }
 }
