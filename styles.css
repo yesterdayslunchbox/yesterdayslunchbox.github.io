@@ -1,9 +1,16 @@
 @font-face {
     font-family: "RetroGraffiti";
-    src: url("https://yesterdayslunchbox.github.org/fonts/retro-graffiti.otf") format("opentype");
+    src: url("/fonts/retro-graffiti.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "StreetGraffiti";
+    src: url("/fonts/street-graffiti.otf") format("opentype");
 }
 
 h1 {
-    font-family: 'RetroGraffiti';
-    color: blue;
+    font-family: 'StreetGraffiti';
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
 }
