@@ -14,8 +14,16 @@
 }
 
 h1 {
+    margin-top: 60px;
     font-family: 'StreetGraffiti';
     font-size: 100px;
     font-weight: lighter;
     text-align: center;
+}
+
+.announcement {
+    font-family: 'SerialPublication';
+    font-size: 100px;
+    text-align: center;
+    color: red;
 }
