@@ -71,13 +71,20 @@ li a {
     font-size: 40px;
     font-family: SerialPublication;
 }
-@media (min-width: 769px) {
-    .header-break {
-        display: none;
-    }
+
+.header-container {
+    display: flex;
+    flex-wrap: nowrap; /* Default: no line break */
+    justify-content: center;
 }
+
 @media (max-width: 768px) {
-    .header-break {
-        display: block;
+    .header-container {
+        flex-wrap: wrap; /* Allows line break on smaller screens */
+    }
+
+    .flex-break {
+        flex-basis: 100%; /* Forces the element to break to a new line */
+        text-align: center; /* Center-aligns the text */
     }
 }
