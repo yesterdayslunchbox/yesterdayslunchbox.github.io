@@ -3,7 +3,6 @@
         - RetroGraffiti
         - SerialPublication
         - StreetGraffiti
-
 */
 
 @font-face {
@@ -60,9 +59,31 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
     font-family: SerialPublication;
 }
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+  /* visited link */
+a:visited {
+    color: black;
+}
+
+  /* mouse over link */
+a:hover {
+    color: darkslategray;
+}
+
+  /* selected link */
+a:active {
+    color: darkslategray;
+}
+
+/* MOBILE ADAPTATIONS */
 
 @media only screen and (max-width: 768px) {
     h1 {
