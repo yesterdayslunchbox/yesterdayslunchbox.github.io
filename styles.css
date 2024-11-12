@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "SerialPublication";
+    src: url("/fonts/serial-publication.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "StreetGraffiti";
     src: url("/fonts/street-graffiti.otf") format("opentype");
 }
