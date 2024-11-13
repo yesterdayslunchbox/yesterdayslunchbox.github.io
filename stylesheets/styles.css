@@ -103,7 +103,13 @@ a:active {
 
 .post-window {
     width: 500px;
-    height: 400px;
+    height: 300px;
+    border: 0px none transparent;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 4px;
+    background-color: white;
 }
 
 .post-wrapper {
