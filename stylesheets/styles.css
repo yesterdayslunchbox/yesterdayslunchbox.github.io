@@ -85,7 +85,7 @@ a:active {
 
 .post-window {
     width: 500px;
-    height: 400px;
+    height: 50vh;
     border: 0px none transparent;
     display: block;
     overflow: hidden;
@@ -122,7 +122,7 @@ a:active {
 
     .post-window {
         width: 300px;
-        height: 400px;
+        height: 70vh;
         border: 0px none transparent;
         display: block;
         overflow: hidden;
