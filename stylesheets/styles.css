@@ -101,6 +101,19 @@ a:active {
     padding-right: auto;
 }
 
+.band-photo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-names {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+}
 
 /* MOBILE ADAPTATIONS */
 /* KEEP AFTER ALL OTHER CSS*/
@@ -129,5 +142,9 @@ a:active {
         margin: 0 auto;
         padding: 4px;
         background-color: white;
+    }
+
+    .band-photo {
+        width: 300px;
     }
 }
