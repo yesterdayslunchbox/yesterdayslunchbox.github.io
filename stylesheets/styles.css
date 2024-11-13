@@ -83,7 +83,27 @@ a:active {
     color: darkslategray;
 }
 
+.post-window {
+    width: 500px;
+    height: 400px;
+    border: 0px none transparent;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 4px;
+    background-color: white;
+}
+
+.post-wrapper {
+    display: block;
+    justify-items: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
 /* MOBILE ADAPTATIONS */
+/* KEEP AFTER ALL OTHER CSS*/
 
 @media only screen and (max-width: 768px) {
     h1 {
@@ -99,22 +119,15 @@ a:active {
     .announcement {
         font-size: 60px;
     }
-}
 
-.post-window {
-    width: 500px;
-    height: 300px;
-    border: 0px none transparent;
-    display: block;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 4px;
-    background-color: white;
-}
-
-.post-wrapper {
-    display: block;
-    justify-items: center;
-    padding-left: auto;
-    padding-right: auto;
+    .post-window {
+        width: 300px;
+        height: 400px;
+        border: 0px none transparent;
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 4px;
+        background-color: white;
+    }
 }
