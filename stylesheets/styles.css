@@ -6,6 +6,11 @@
 */
 
 @font-face {
+    font-family: "PunkType";
+    src: url("/fonts/punk-type.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "RetroGraffiti";
     src: url("/fonts/retro-graffiti.otf") format("opentype");
 }
@@ -20,6 +25,11 @@
     src: url("/fonts/street-graffiti.otf") format("opentype");
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 h1 {
     margin: 0;
     margin-top: 60px;
@@ -27,11 +37,10 @@ h1 {
     font-size: 100px;
     font-weight: lighter;
     text-align: center;
-    
 }
 
 .announcement {
-    font-family: 'SerialPublication';
+    font-family: 'PunkType';
     font-size: 80px;
     text-align: center;
     margin: 0;
@@ -65,33 +74,39 @@ li a {
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: white;
 }
 
   /* visited link */
 a:visited {
-    color: black;
+    color: white;
 }
 
   /* mouse over link */
 a:hover {
-    color: darkslategray;
+    text-decoration: underline;
+    color: grey;
 }
 
   /* selected link */
 a:active {
-    color: darkslategray;
+    color: grey;
+}
+
+.current-page {
+    text-decoration: underline;
+    color: white;
 }
 
 .post-window {
     width: 500px;
-    height: 50vh;
+    height: 70vh;
     border: 0px none transparent;
     display: block;
     overflow: hidden;
     margin: 0 auto;
     padding: 4px;
-    background-color: white;
+    background-color: black;
 }
 
 .post-wrapper {
@@ -115,6 +130,14 @@ a:active {
     font-weight: 800;
 }
 
+.thumbnail {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* MOBILE ADAPTATIONS */
 /* KEEP AFTER ALL OTHER CSS*/
 
@@ -134,17 +157,22 @@ a:active {
     }
 
     .post-window {
-        width: 300px;
-        height: 70vh;
+        width: 360px;
+        height: 60vh;
         border: 0px none transparent;
         display: block;
         overflow: hidden;
         margin: 0 auto;
         padding: 4px;
-        background-color: white;
+        background-color: black;
     }
 
     .band-photo {
         width: 300px;
+    }
+
+    .thumbnail {
+        width: 350px;
+        height: auto;
     }
 }
