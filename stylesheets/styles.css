@@ -114,6 +114,7 @@ a:active {
     justify-items: center;
     padding-left: auto;
     padding-right: auto;
+    margin-top: -30px;
 }
 
 .band-photo {
