@@ -168,6 +168,14 @@ a:active {
         background-color: black;
     }
 
+    .post-wrapper {
+        display: block;
+        justify-items: center;
+        padding-left: auto;
+        padding-right: auto;
+        margin-top: -10px;
+    }
+
     .band-photo {
         width: 300px;
     }
