@@ -100,7 +100,7 @@ a:active {
 
 .post-window {
     width: 500px;
-    height: 70vh;
+    height: 62vh;
     border: 0px none transparent;
     display: block;
     overflow: hidden;
@@ -161,7 +161,7 @@ a:active {
 
     .post-window {
         width: 360px;
-        height: 60vh;
+        height: 70vh;
         border: 0px none transparent;
         display: block;
         overflow: hidden;
