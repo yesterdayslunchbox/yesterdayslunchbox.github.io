@@ -159,7 +159,7 @@ a:active {
 
     .post-window {
         width: 360px;
-        height: 70vh;
+        height: 100vh;
         border: 0px none transparent;
         display: block;
         overflow: hidden;
