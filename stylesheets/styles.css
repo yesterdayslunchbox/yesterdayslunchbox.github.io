@@ -179,12 +179,12 @@ a:active {
     }
 
     .band-photo {
-        width: 350px;
+        width: 400px;
         height: auto;
     }
 
     .thumbnail {
-        width: 400px;
+        width: 350px;
         height: auto;
     }
 }
