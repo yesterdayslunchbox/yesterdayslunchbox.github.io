@@ -4,6 +4,8 @@ body {
 
 h1 {
     margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     text-align: center;
     font-family: impact;
     font-weight: 500;
@@ -16,5 +18,5 @@ p {
     font-family: monospace;
     font-weight: 800;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
 }
