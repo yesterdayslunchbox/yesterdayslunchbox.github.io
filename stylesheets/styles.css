@@ -181,8 +181,35 @@ body {
         height: auto;
     }
 
+   .post {
+    width: 360px;
+    }
+
+    .posts-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .post h1 {
+        font-family: 'impact';
+        font-size: 40px;
+        text-align: center;
+    }
+    .post p {
+        font-family: 'courier';
+        font-weight: 800;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+    }
+
     .thumbnail {
-        width: 350px;
+        width: 360px;
         height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
