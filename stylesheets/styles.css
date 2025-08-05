@@ -101,7 +101,7 @@ a:active {
 .post-wrapper {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 95vh;
     gap: 1rem;
     justify-items: center;
     padding-left: auto;
