@@ -99,7 +99,7 @@ a:active {
 }
 
 .post {
-    background: #222;
+    background: #000000;
     color: #fff;
     margin: 2rem 0;
     padding: 1rem;
@@ -120,6 +120,42 @@ a:active {
     font-weight: 800;
     color: white;
     font-size: 16px;
+}
+
+body {
+    background-color: black;
+}
+
+.post {
+    width: 500px;
+}
+
+.posts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post h1 {
+    font-family: 'impact';
+    font-size: 40px;
+    text-align: center;
+}
+.post p {
+    font-family: 'courier';
+    font-weight: 800;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* MOBILE ADAPTATIONS */
