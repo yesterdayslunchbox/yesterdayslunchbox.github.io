@@ -98,23 +98,28 @@ a:active {
     color: white;
 }
 
+.post-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    gap: 1rem;
+    justify-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 10px;
+}
+
 .post-window {
+    flex: 1 1 0;
     width: 500px;
-    height: 62vh;
+    height: 100%;
     border: 0px none transparent;
     display: block;
     overflow: hidden;
     margin: 0 auto;
     padding: 4px;
     background-color: black;
-}
-
-.post-wrapper {
-    display: block;
-    justify-items: center;
-    padding-left: auto;
-    padding-right: auto;
-    margin-top: 0px;
+    min-height: 0;
 }
 
 .band-photo {
@@ -171,7 +176,10 @@ a:active {
     }
 
     .post-wrapper {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        gap: 1rem;
         justify-items: center;
         padding-left: auto;
         padding-right: auto;
