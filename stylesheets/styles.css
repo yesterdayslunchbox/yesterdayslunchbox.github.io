@@ -182,7 +182,7 @@ body {
     }
 
    .post {
-    width: 360px;
+    width: 300px;
     }
 
     .posts-wrapper {
@@ -206,7 +206,7 @@ body {
     }
 
     .thumbnail {
-        width: 360px;
+        width: 300px;
         height: auto;
         display: block;
         margin-left: auto;
