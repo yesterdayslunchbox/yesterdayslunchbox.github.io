@@ -98,28 +98,12 @@ a:active {
     color: white;
 }
 
-.post-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 95vh;
-    gap: 1rem;
-    justify-items: center;
-    padding-left: auto;
-    padding-right: auto;
-    margin-top: 10px;
-}
-
-.post-window {
-    flex: 1 1 0;
-    width: 500px;
-    height: 100%;
-    border: 0px none transparent;
-    display: block;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 4px;
-    background-color: black;
-    min-height: 0;
+.post {
+    background: #222;
+    color: #fff;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 .band-photo {
@@ -138,14 +122,6 @@ a:active {
     font-size: 16px;
 }
 
-.thumbnail {
-    width: 200px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* MOBILE ADAPTATIONS */
 /* KEEP AFTER ALL OTHER CSS*/
 
@@ -162,28 +138,6 @@ a:active {
 
     .announcement {
         font-size: 60px;
-    }
-
-    .post-window {
-        width: 360px;
-        height: 80vh;
-        border: 0px none transparent;
-        display: block;
-        overflow: hidden;
-        margin: 0 auto;
-        padding: 4px;
-        background-color: black;
-    }
-
-    .post-wrapper {
-        display: flex;
-        flex-direction: column;
-        height: 600px;
-        gap: 1rem;
-        justify-items: center;
-        padding-left: auto;
-        padding-right: auto;
-        margin-top: -10px;
     }
 
     .band-photo {
