@@ -1,0 +1,214 @@
+/* 
+    FONTS 
+        - PunkType
+        - RetroGraffiti
+        - SerialPublication
+        - StreetGraffiti
+*/
+
+@font-face {
+    font-family: "PunkType";
+    src: url("/fonts/punk-type.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RetroGraffiti";
+    src: url("/fonts/retro-graffiti.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SerialPublication";
+    src: url("/fonts/serial-publication.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "StreetGraffiti";
+    src: url("/fonts/street-graffiti.otf") format("opentype");
+}
+
+/* UNIVERSAL STYLES */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-header {
+    font-family: "StreetGraffiti";
+    font-size: 100px;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 60px;
+    font-weight: lighter;
+
+}
+
+/* NAVBAR */
+nav {
+    text-align: center;
+    margin: 0;
+}
+
+.nav-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.nav-li {
+    float: left;
+}
+
+.nav-li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "SerialPublication";
+}
+
+/* POSTS */
+.thumbnail {
+    max-width: 500px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.post h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.post p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+/* MUSIC + STORE PAGE*/
+.announcement {
+    font-family: 'PunkType';
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+    color: red;
+}
+
+/* ABOUT PAGE */
+.band-photo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.member-names {
+    text-align: center;;
+    font-size: 17px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* LINKS */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+a:active {
+    color: grey;
+}
+
+.current-page {
+    text-decoration: underline;
+    color: white;
+}
+
+/* MOBILE ADAPTATIONS */
+/* KEEP AFTER ALL OTHER CSS*/
+
+@media only screen and (max-width: 768px) {
+    .main-header {
+        margin-top: 40px;
+        font-size: 70px;
+    }
+
+    .nav-li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .nav-li a {
+        font-size: 38px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .announcement {
+        font-size: 60px;
+    }
+
+    .band-photo {
+        width: 350px;
+        height: auto;
+    }
+
+    .member-names {
+        font-size: 16px;
+    }
+
+    .post {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .post h1 {
+        font-family: 'impact';
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+    }
+    .post p {
+        font-family: 'courier';
+        font-weight: bolder;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .thumbnail {
+        width: 350px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
