@@ -212,3 +212,10 @@ a:active {
         margin-right: auto;
     }
 }
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 17px;
+    color: white;
+}
