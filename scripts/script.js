@@ -14,7 +14,9 @@ insertBreakOnMobile();
 window.addEventListener('resize', insertBreakOnMobile);
 
 // Function to load posts dynamically
-const postList = ['be-still-announcement.html', 'wheres-the-music.html'];
+const postList = ['be-still-out-now.html', 
+                  'be-still-announcement.html', 
+                  'wheres-the-music.html'];
 const postContainer = document.getElementById('posts');
 
 Promise.all(
