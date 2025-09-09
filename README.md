@@ -1,7 +1,7 @@
 - 💻 @yesterdayslunchbox official website
 - 🪨 We're a alternative rock band from Houston, Texas
 - 🎸 Our guitarist and backing vocalist Cru runs this repository for our website
-- 📬 You can contact us on Instagram @yesterdayslunchbox or at yesterdayslunchbox@gmail.com
+- 📬 You can contact us on Instagram @yesterdayslunchbox or by email at yesterdayslunchbox@gmail.com
 
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
