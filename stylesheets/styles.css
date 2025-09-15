@@ -183,6 +183,76 @@ a:active {
     color: white;
 }
 
+/* RELEASES */
+
+.release-row {
+    margin: 0px 100px;
+}
+
+.release-column {
+    float: left;
+    text-align: center;
+}
+
+.middle{
+    width: 50%;
+}
+
+.outside{
+    width: 25%;
+}
+
+.release-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.release-header {
+    font-family: 'Impact';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.release-h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.release-img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.lyric-section {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.streaming-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.stream-link {
+    width: 250px;
+    font-size: 25px;
+    border-radius: 6px;
+    margin-bottom: 3px;
+}
+
 /* MOBILE ADAPTATIONS */
 /* KEEP AFTER ALL OTHER CSS*/
 
