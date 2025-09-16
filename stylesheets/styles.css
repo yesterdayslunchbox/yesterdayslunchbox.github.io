@@ -135,6 +135,19 @@ nav {
     margin: 0 auto;
 }
 
+.playlist {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.playlist-iframe {
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* ABOUT PAGE */
 .band-photo {
     width: 500px;
@@ -362,6 +375,13 @@ a:active {
         margin: 0 auto;
     }
 
+    .playlist-iframe {
+        border-radius: 12px;
+        width: 350px;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 /* FOOTER */
